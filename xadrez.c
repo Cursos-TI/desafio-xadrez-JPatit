@@ -19,7 +19,7 @@ int main(){
     
     printf("\n");
 
-    //por fim, movendo rainha com a estrutura "do-while"
+    //movendo rainha com a estrutura "do-while"
     int r = 0;
 
     do{
@@ -27,5 +27,20 @@ int main(){
         r++;
     }   while (r < 8);
 
+    printf("\n");
+
+    //por fim, movendo o cavalo usando for interno e while externo
+
+    int movimento = 1;
+
+    while (movimento--){
+        
+        for (int c = 0; c < 2; c++){
+            printf("Cavalo anda para baixo\n");
+        }
+        printf("Cavalo anda para esquerda\n");
+
+    }
+    
     return 0;
 }
