@@ -26,7 +26,6 @@ int main(){
         printf("Rainha anda para esquerda\n");
         r++;
     }   while (r < 8);
-    
 
     return 0;
 }
